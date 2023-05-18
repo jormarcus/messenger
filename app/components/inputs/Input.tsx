@@ -29,7 +29,9 @@ const Input: FC<InputProps> = ({
       <label
         htmlFor={id}
         className="block text-sm font-medium leading-6 text-gray-900"
-      ></label>
+      >
+        {label}
+      </label>
       <div className="mt-2">
         <input
           id={id}
